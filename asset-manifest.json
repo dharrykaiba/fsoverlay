@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fsoverlay/static/css/main.69c72d28.css",
+    "main.js": "/fsoverlay/static/js/main.35646c9e.js",
+    "index.html": "/fsoverlay/index.html",
+    "main.69c72d28.css.map": "/fsoverlay/static/css/main.69c72d28.css.map",
+    "main.35646c9e.js.map": "/fsoverlay/static/js/main.35646c9e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69c72d28.css",
+    "static/js/main.35646c9e.js"
+  ]
+}
