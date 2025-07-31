@@ -9,9 +9,9 @@ import OverlayMaquinas from "./views/OverlayMaquinas";
 const AppRouter = () => {
   return (
     <Routes>
-      <Route path="/" element={<HomeView />} />
+      <Route path="/" element={<OverlayMaquinas />} />
       <Route path="/overlay" element={<Overlay />} />
-      <Route path="/overlayid/:id" element={<OverlayID />} />
+      <Route path="/overlayid/:id" element={<OverlayID />} />{" "}
       <Route path="/editor" element={<OverlayEditorView />} />
       <Route path="/overlay-maquinas" element={<OverlayMaquinas />} />
     </Routes>
