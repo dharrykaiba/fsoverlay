@@ -1,10 +1,20 @@
+import React from "react";
+/* */
+import { HashRouter as Router } from "react-router-dom";
+
 import "./App.css";
-import Routes from './routes'; // Importa el archivo de rutas
+import Routes from "./routes"; // Importa el archivo de rutas
 
 function App() {
   return (
     <div className="App">
-      <Routes />
+      {
+        /**/
+        <Router>
+          <Routes />
+        </Router>
+        /**/
+      }
     </div>
   );
 }
